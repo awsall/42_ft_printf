@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef	PRINTF_H
-# define PRINTF_H
+#ifndef	FT_PRINTF_H
+# define FT_PRINTF_H
 
 #include <stdarg.h>
 #include <unistd.h>
@@ -22,8 +22,8 @@
 } t_dispatch;*/
 
 
-int	ft_putchar_fd(char c, int fd)
-int	ft_putstr_fd(char *s, int fd)
+int	ft_printchar_fd(char c, int fd);
+int	ft_printstr_fd(char *s, int fd);
 
 
 
