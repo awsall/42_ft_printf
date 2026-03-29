@@ -1,18 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
+/*   ft_printstr.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: awsall <awsall@student.42urduliz.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 13:20:26 by awsall            #+#    #+#             */
-/*   Updated: 2026/03/18 13:14:25 by awsall           ###   ########.fr       */
+/*   Updated: 2026/03/29 21:02:04 by awsall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
 #include "printf.h"
 
-int	ft_putstr_fd(char *s, int fd)
+int	ft_printstr(char *s)
 {
 	int	i;
 
@@ -21,13 +22,15 @@ int	ft_putstr_fd(char *s, int fd)
 	i = 0;
 	while (s[i])
 	{
-		write(fd, &s[i], 1);
+		write(1, &s[i], 1);
 		i++;
 	}
 	return (i);
 }
-/*
+
+#include <unistd.h>
 int	main(void)
 {
-	ft_putstr_fd("string\n", 1);
-}*/
+	ft_printstr("string\n");
+	return (0);
+}

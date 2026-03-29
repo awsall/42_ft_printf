@@ -23,7 +23,7 @@
 
 
 int	ft_printchar_fd(char c, int fd);
-int	ft_printstr_fd(char *s, int fd);
+int	ft_printstr(char *s);
 
 
 

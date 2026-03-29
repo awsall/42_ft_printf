@@ -6,7 +6,7 @@
 /*   By: awsall <awsall@student.42urduliz.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/23 12:25:51 by awsall            #+#    #+#             */
-/*   Updated: 2026/03/23 15:00:48 by awsall           ###   ########.fr       */
+/*   Updated: 2026/03/29 19:17:53 by awsall           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,9 +45,9 @@ void	ft_printnbr(int nbr)
 		write(1, &buffer[i], 1);
 	}
 }
-
-#include <stdio.h>
 /*
+#include <stdio.h>
+
 int	main(void)
 {
 	int	nbr;
@@ -59,15 +59,6 @@ int	main(void)
 	return (0);
 }
 */
-int	main(void)
-{
-	int	n;
-	int	f;
 
-	n = 10;
-	f = ft_printf(f);
-	printf("%d\n", ft_printf(f));
-
-}
  
 
