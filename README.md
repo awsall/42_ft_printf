@@ -3,9 +3,13 @@
 **TABLA DE CONTENIDO**
 
 **Descripción**
+
 **Descripción de las funciones de printf**
+
 **Instrucciones**
+
 **Recursos**
+
 **Uso de IA**
 
 # Descripción
