@@ -55,9 +55,15 @@ Ella escribe un numéro sin signo base 10.
 Es la función principal de nuestro proyecto. Es una función variàdica es decir que acepta varios parámetros. Despues de crear nuestras funciones para las conversiones hemos creado un dispach o handle **ft_formats** que nos ayuda a manejar cada conversión o paràmetro.
 
 ## Instruccionnes
-
-
-
+Para compilar la biblioteca utilizaremos la herramienta **make** mas libftprintf.a. Esta leera las instrucciones que estàn en el **makefile** y generaràla librería completa con todas las funciones.
+ 
 ### Recursos
 
- 
+**Explicaciones de los compañeros**
+
+# Uso de IA
+-**Verificación de código**
+Se usa IA para explicar el funcionamiento de cada función.
+
+-**Explicación detaillada de cada función**
+Solicito que verifique mi código y proporcione una explicación de cada línea para comprender mejor su funcionamiento.
